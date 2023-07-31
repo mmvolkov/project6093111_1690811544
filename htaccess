@@ -1,0 +1,101 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page13880401.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^vgs$ page31105165.html [NC]
+RewriteRule ^vgs/$ page31105165.html [NC]
+
+RewriteRule ^virtual-workstations$ page31423333.html [NC]
+RewriteRule ^virtual-workstations/$ page31423333.html [NC]
+
+RewriteRule ^virtual-graphics-station$ page31424957.html [NC]
+RewriteRule ^virtual-graphics-station/$ page31424957.html [NC]
+
+RewriteRule ^1c$ page31708792.html [NC]
+RewriteRule ^1c/$ page31708792.html [NC]
+
+RewriteRule ^1$ page31711511.html [NC]
+RewriteRule ^1/$ page31711511.html [NC]
+
+RewriteRule ^test1c$ page31711538.html [NC]
+RewriteRule ^test1c/$ page31711538.html [NC]
+
+RewriteRule ^h1c$ page32574564.html [NC]
+RewriteRule ^h1c/$ page32574564.html [NC]
+
+RewriteRule ^vdc$ page32588475.html [NC]
+RewriteRule ^vdc/$ page32588475.html [NC]
+
+RewriteRule ^h1cv$ page33258077.html [NC]
+RewriteRule ^h1cv/$ page33258077.html [NC]
+
+RewriteRule ^vws$ page33543592.html [NC]
+RewriteRule ^vws/$ page33543592.html [NC]
+
+RewriteRule ^eucloud$ page35315012.html [NC]
+RewriteRule ^eucloud/$ page35315012.html [NC]
+
+RewriteRule ^oblakobezgranic$ page35576108.html [NC]
+RewriteRule ^oblakobezgranic/$ page35576108.html [NC]
+
+RewriteRule ^obg$ page35576050.html [NC]
+RewriteRule ^obg/$ page35576050.html [NC]
+
+RewriteRule ^cmtest2$ page35677291.html [NC]
+RewriteRule ^cmtest2/$ page35677291.html [NC]
+
+RewriteRule ^cmtest$ page35679395.html [NC]
+RewriteRule ^cmtest/$ page35679395.html [NC]
+
+RewriteRule ^obg2$ page35682389.html [NC]
+RewriteRule ^obg2/$ page35682389.html [NC]
+
+RewriteRule ^obg3$ page35692094.html [NC]
+RewriteRule ^obg3/$ page35692094.html [NC]
+
+RewriteRule ^as1c$ page35757304.html [NC]
+RewriteRule ^as1c/$ page35757304.html [NC]
+
+RewriteRule ^as1c02$ page35757404.html [NC]
+RewriteRule ^as1c02/$ page35757404.html [NC]
+
+RewriteRule ^as1c01$ page35774185.html [NC]
+RewriteRule ^as1c01/$ page35774185.html [NC]
+
+RewriteRule ^1c_v_oblake$ page35778606.html [NC]
+RewriteRule ^1c_v_oblake/$ page35778606.html [NC]
+
+RewriteRule ^bitrix00$ page35791051.html [NC]
+RewriteRule ^bitrix00/$ page35791051.html [NC]
+
+RewriteRule ^bvm$ page36354980.html [NC]
+RewriteRule ^bvm/$ page36354980.html [NC]
+
+RewriteRule ^test$ page36596725.html [NC]
+RewriteRule ^test/$ page36596725.html [NC]
+
+RewriteRule ^pilot$ page36613266.html [NC]
+RewriteRule ^pilot/$ page36613266.html [NC]
+
+RewriteRule ^onboarding$ page36627813.html [NC]
+RewriteRule ^onboarding/$ page36627813.html [NC]
+
+RewriteRule ^arenda1c$ page37997016.html [NC]
+RewriteRule ^arenda1c/$ page37997016.html [NC]
+
+RewriteRule ^arenda-servera-1s$ page38066179.html [NC]
+RewriteRule ^arenda-servera-1s/$ page38066179.html [NC]
+
+RewriteRule ^2020$ page38106832.html [NC]
+RewriteRule ^2020/$ page38106832.html [NC]
+
+
